@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Bangers|Ultra&display=swap');
+
+@viewport{
+    width:device-width
+}
+
+html {
+	background-image: url(ocean);
+	background-color: azure;
+    
+}
+
+
+* {
+	margin: 0;
+	padding: 0
+}
+
+body {
+    width: 90%;
+    margin: 1em auto;
+    background-color: white;
+    border: 1em solid white;
+    border-radius: 1em;
+    font-size: 16px;
+    font-family:  "Arial", "Serif";
+
+}
+
+
+em {
+    color: #000080
+}
+
+i {
+    font-style: italic
+}
+    
+h1, section,p, section>ul {
+    margin: auto;
+    padding: 1em
+}
+
+q {
+    font-family: "Courgette"
+}
+
+    
+/*Header */
+
+
+header {
+    background-image: url(bait3.JPG);
+    background-size: cover;
+	padding: 2em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    font-family: "Bangers";
+    text-align: center;
+    color: white
+    
+}
+
+header > h1 { 
+    letter-spacing: 0.5em;
+	font-size: 4em;
+	padding: 0;
+	text-shadow: 2px 2px 8px #ce0018
+}
+
+header > p {
+	font-size: 2em
+}
+
+.body1 >img {
+    padding:auto;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center
+    
+}
+
+/* Nav */
+
+nav {font-size: 1.2em;
+    font-weight: bold
+    
+}
+
+li a { 
+    color: black;
+    padding: 0.5em 2em;
+    text-decoration: none
+}
+/* Side Nav */
+
+.nav1 {
+    max-width: 100%;
+}
+
+.nav1 li {
+    text-indent: -22px;
+    
+}
+
+.nav1 ul {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    list-style-image: url(favicon.ico);
+    margin: auto;
+    padding: 1.5em ;
+        
+}
+
+.nav1 a { 
+    border: 0.1em solid white;
+    padding: auto;
+    text-decoration: none;
+    background-color: white;
+    display: block;
+    margin: 0.3em;
+    box-shadow:0 4px 2px -2px CadetBlue
+}
+
+h2 {
+    font-size: 0.9em;
+    text-align: center
+}
+ 
+
+
+
+.nav1 ul a:hover {
+    background-color: #f0f5ff
+
+}
+
+/* Main Nav */
+
+.nav2 {
+    border: 0.1em solid #1ac1dd;
+    background-color: #56b7c2;
+    max-width: 100%
+    
+}
+
+.nav2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.nav2 a { 
+    display:block;
+    flex-basis: auto;
+    border: 0.1em solid #63c3ce;
+    border-radius: 0.5em;
+    background-color:#b7e1e6
+    
+}
+
+.nav2 li {
+    padding: 0.5em
+    
+}
+    
+
+
+.nav2 a:hover {
+    border: 0.1em solid #63c3ce;
+    border-radius: 0.5em;
+    background-color: #63c3ce
+    
+}
+
+.nav2 [href=""] {
+    background-color:#63c3ce;
+    color:black;
+    border: 0.1em solid #63c3ce;
+    border-radius: 0.5em;
+
+}
+
+
+
+/* Main */
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start
+    
+}
+
+main > h1, main> p { 
+    flex-basis: 100%
+    
+}
+
+
+.body1 main section p{
+    text-indent:2em;
+}
+
+
+.body2 section p {
+    text-indent: none
+    
+}
+
+
+section h1{ 
+    border-left: 2px solid aqua
+    
+}
+
+#beginner > ol {
+    margin: 0em 4em;
+    color:#000066
+}
+
+#beginner > p:first-of-type{
+    font-weight: bold
+}
+
+#beginner ul{ 
+    color:#000066;
+    margin: 0em 4em
+}
+
+#history,#beginner, #buoyancy, #navigation,aside > section, .body2 section>section{ 
+    flex-basis:100%;
+    margin: 1em 0.7em;
+    padding: 1em 0.5em ;
+    width: 95%;
+    box-shadow: 0 4px 8px 0 CadetBlue, 0 6px 20px 0 CadetBlue 
+    
+}
+
+#history {
+    width: auto;
+    margin: 1em 0.5em;
+    text-indent: 2em
+}
+    
+figure, table{
+    overflow:hidden
+}
+
+img{
+    max-width: 100%
+}
+
+h2 {
+    font-size: 0.9em;
+    text-align: center
+}
+
+
+section {
+        padding: 2em
+}
+		
+		
+.body2 figure {
+    padding: 2em
+    
+}
+
+.body2 p {
+    text-indent: none
+
+}
+
+#beginner figure, #buoyancy figure, #navigation figure {
+    text-align: center
+}
+
+.skills {
+    padding: 0em
+    
+}
+#buoyancy >section, #navigation>section, #history>section, #beginner>section{ 
+    padding:0.4em
+}
+
+
+
+
+		
+/* Aside */
+
+aside {
+    width: 90%;
+    margin: auto;
+}
+}
+        
+
+aside h1 { 
+    font-size: 2em;
+    font-family: cursive
+            
+}
+
+aside p { 
+    font-size: 1.5em
+    
+}
+
+aside section{ 
+    margin: 0;
+    background-image: url(bgflag.svg);
+    background: cover
+}
+
+.intro { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1em 0em ;
+    padding: 1em 0.5em ;
+    box-shadow: 0 4px 8px 0 CadetBlue, 0 6px 20px 0 CadetBlue;
+    
+}
+
+/* Gear and Dive Site Specific */
+.intro img, .intro p{ 
+    flex-basis: 90%
+										
+}
+
+.intro p {
+    margin :0;
+    font-size: 1.4em;
+    text-align: center;
+    font-family: "Bangers"
+}
+			
+.left {
+    padding: 0em 2em 0em 2em
+    
+}
+.right {
+    padding: 0em 2em 2em 2em
+    
+}
+			
+.body2 .left > section, .body2 .right > section {
+    margin: 1em 0em
+    
+}	
+			
+/*Table*/
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse
+}
+
+th, td{
+    padding:1em
+    
+}
+    
+table caption{ 
+    color: #000066;            
+    padding: 0.5em;
+    font-size: 1.5em
+}
+
+table{ background:#ADD8E6;
+		
+}
+th:hover { 
+    background: #E0FFFF
+}
+td:hover { 
+    background: #E0FFFF
+}
+
+tr:nth-child(even) {
+    background: #00CED1
+    
+}
+
+table{
+    max-width:100%;
+    overflow: hidden;
+    font-size: 0.5em;
+    
+    
+}
+table{
+    width: 50%;
+    
+}
+
+.table {
+    overflow-x:scroll;
+    padding-left: 1.5em
+}
+  
+footer { 
+    padding: 0.5em
+    
+}
+    
+
+
+
+
+/* Animation*/
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(100deg);
+  }
+    100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+
+/* HOME PAGE GRID   */
+@media screen and (min-width: 625px) {
+
+        
+    .body1 {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: auto;
+        grid-template-areas:"image header"
+                            "nav1 header2"
+                            ". nav2"
+                            "aside history"
+                            "main main"
+                            "footer footer"
+                            
+                            
+    }
+
+
+
+
+    .body1 header {
+            grid-row: header/ header2
+			
+    }
+
+    .flag { grid-area: image
+        
+    }
+    .nav1 { 
+        grid-area: nav1
+        
+    }
+
+    .body1 .nav2 { 
+        grid-area: nav2
+    }
+    #history{ grid-area: history
+	}
+    
+    .body1 main {grid-area: main
+	}
+
+    
+
+    .body1 aside {
+        
+        grid-area: aside
+    }
+
+    .body1 footer {
+        grid-area: footer
+    }
+	
+}
+	
+	
+/* Gear and Dive Site GRID */
+@media screen and (min-width: 625px) {
+    
+	.body2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        grid-template-areas:"header header"
+                            "nav nav"
+                            "middle middle"
+							"middleleft middleright"
+							"footer footer"
+	}
+	.body2 header{ grid-area:header
+
+	}
+	.body2 .nav2 { grid-area: nav
+	}
+	
+	.intro { grid-area: middle
+	}
+	
+	
+	.left {grid-area: middleleft}
+	
+	.right {grid-area: middleright}
+	
+	.body2 footer { grid-area: footer
+	}
+	
+	.nav1 ul {padding: 1.5em 0em 1.5em 1.5em;}
+}
+
+ 
+ 
+	
+/*NAV2 */
+
+@media screen and (min-width: 730px) {
+	
+	.nav2 ul{
+        flex-direction: row
+    }
+
+	.nav2 li {padding: 0em}
+    
+    
+	
+}
+
+
+/*NAV1 */
+
+@media screen and (min-width: 800px) {
+    
+	.nav1 li {
+        padding: 1em;
+        text-indent: -2px;}
+	
+}
+
+/* Table and Section Sizing */
+@media screen and (min-width: 450px) {
+    
+    table { 
+        font-size: 1em;
+     }
+     .table {
+         padding-left: 2em
+    }
+    
+    .skills { 
+        padding: 1.5em
+    }   
+    
+    #buoyancy >section, #navigation>section, #history>section, #beginner>section{ 
+    padding:1.5em
+    }
+        
+}
+
+/*IMAGE  */
+@media screen and (min-width: 800px) {
+
+    header { 
+        background-image: url(bait.JPG);
+        
+    }
+
+}
+
+
+@media screen and (min-width: 690px) {
+    .intro img, .intro p { 
+        flex-basis: 45%
+        
+    }
+}
+    
+    
+    
+    
+    
+    
+
